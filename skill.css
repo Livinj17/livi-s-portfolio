@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: auto;
     box-sizing: border-box;
     text-decoration: none;
 }
@@ -9,6 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     animation: action 1.5s;
+    overflow:hidden;
 }
 @keyframes action{
     0%{
