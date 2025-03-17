@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url("color.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: action 1.5s;
+    overflow: hidden;
+
+}
+@keyframes action{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.a{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav .a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logo a{
+    color: rgb(247, 241, 241);
+    font-size: 30px;
+    font-weight: 600;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    font-family: Snell Roundhand, cursive;
+}
+.nav .line li{
+    list-style: none;
+    display: inline-block;
+}
+.nav .line li a{
+    color: rgb(247, 247, 242);
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.nav .line a:hover{
+    color:rgb(239, 160, 250);
+    text-shadow: 2px 2px 3px rgb(15, 15, 15);
+    animation: fadeIn 0.5s;
+    
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1; 
+    }
+}
+@-moz-keyframesmos fadeIn{
+    0%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1; 
+    }
+}
+@-webkit-keyframesmos FadeIn{
+    0%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1; 
+    }
+}
+
+
+.text{
+    position: fixed;
+    top: 280px;
+    left: 130px;
+    font-size: 30px;
+    padding: 15px;
+    box-shadow: purple 6px -6px 5px;
+    border-bottom: rgb(240, 236, 5) 6px groove;
+    border-left: rgb(240, 236, 5) 6px groove;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    animation: 1.5s change infinite reverse;
+}
+@keyframes change{
+    0%{box-shadow: purple 6px -6px 5px;}
+    100%{box-shadow: rgb(241, 237, 2) 6px -6px 5px;}
+    0%{border-bottom: rgb(240, 236, 5) 6px groove;}
+    100%{border-bottom: rgb(122, 4, 133) 6px groove}
+    0%{border-left: rgb(240, 236, 5) 6px groove;}
+    100%{border-left: rgb(122, 4, 133) 6px groove}
+}
+
+.text .text1{
+    font-family: Bradley Hand, cursive;
+    color: rgb(252, 249, 249);text-shadow: rgb(7, 7, 7) 4px 1px 1px;
+    font-size: 25px;
+}
+.text .text2{
+    font-family: Bradley Hand, cursive;
+    color: rgb(241, 245, 5);
+    text-shadow: rgb(153, 6, 146) 4px 2px 3px;
+}
+.text .text3{
+    font-family: Bradley Hand, cursive;
+    color: rgb(247, 245, 245);
+    text-shadow: rgb(15, 15, 15) -3px -2px 1px ;
+    font-size: 25px;
+    position: relative;
+    top: -30px;
+}
+.pro{
+    position: fixed;
+    top: 50px;
+    left: 800px;
+    animation: top 1.5s ;
+    
+}
+@keyframes top{
+    0%{left: 600px;}
+    100%{left: 800px;}
+}

@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-image: url(s.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: action 1.5s;
+}
+@keyframes action{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.a{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.nav{
+    width: 100%;
+    padding: 15px 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav .a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav .logo a{
+    color: rgb(241, 237, 243);
+    font-size: 35px;
+    font-weight: 600;
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    font-family: Snell Roundhand, cursive;
+}
+.nav .line li{
+    list-style: none;
+    display: inline-block;
+}
+.nav .line li a{
+    color: rgb(248, 244, 244);
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+.nav .line li a:hover{
+    color:rgb(239, 160, 250);
+    text-shadow: 2px 2px 1px rgb(15, 15, 15);
+    animation: fadeIn 0.5s;
+}
+.skill h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(243, 244, 245);
+    font-weight: 500;
+    position: relative;
+    top: 30px;
+    text-shadow: 7px 10px 15px rgb(10, 113, 248);
+
+}
+@keyframes blink{
+    0%{
+        opacity: 0; 
+    }
+    20%{
+        opacity: 1; 
+    }
+    30%{
+        opacity: 0; 
+    }
+    50%{
+        opacity: 1; 
+    }
+    70%{
+        opacity: 0; 
+    }
+    80%{
+        opacity: 1; 
+    }
+    100%{
+        opacity: 0; 
+    }
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1; 
+    }
+}
+@-moz-keyframesmos fadeIn{
+    0%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1; 
+    }
+}
+@-webkit-keyframesmos FadeIn{
+    0%{
+        opacity: 0; 
+    }
+    100%{
+        opacity: 1; 
+    }
+}
+
+.skills-container {
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 251, 0);
+    text-shadow: rgb(238, 42, 238) 3px 0.5px 2px;
+    font-size: 45px;
+    text-decoration: underline rgb(238, 42, 238);
+    animation: blink 5s infinite;
+    font-family: Palatino, URW Palladio L, serif;
+
+}
+
+.skill {
+    position: relative;
+    top: 110px;
+    left: -60%;
+}
+.skill1 {
+    position: relative;
+    top: -98px;
+    left: 260px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(238, 42, 238);
+    font-size: 30px;
+    font-weight: 500;
+    text-shadow: #e7f701 1.5px 1px 2px;
+}
+
+.progress-bar {
+    background-color: #e7ec99;
+    border-radius: 25px;
+    position: relative;
+    height: 30px;
+    width: 100%;
+}
+
+.progress {
+    background-color: #b7b92a;
+    height: 100%;
+    border-radius: 25px;
+    text-align: right;
+    line-height: 30px;
+    color: rgb(15, 13, 13);
+    font-weight: bold;
+    animation: bar ease-in 1.5s;
+}
+.progress1 {
+    background-color: #b7b92a;
+    height: 100%;
+    border-radius: 25px;
+    text-align: right;
+    line-height: 30px;
+    color: rgb(15, 13, 13);
+    font-weight: bold;
+    animation: bar1 ease-in 1.5s;
+}
+.progress2 {
+    background-color: #b7b92a;
+    height: 100%;
+    border-radius: 25px;
+    text-align: right;
+    line-height: 30px;
+    color: rgb(15, 13, 13);
+    font-weight: bold;
+    animation: bar2 ease-in 1.5s;
+}
+@keyframes bar{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes bar1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes bar2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+ 
