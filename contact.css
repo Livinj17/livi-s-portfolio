@@ -174,20 +174,3 @@ textarea {
         opacity: 1; 
     }
 }
-
-.icon{
-    position: relative;
-    bottom: 95px;
-    left: 530px;
-    list-style: none;
-    display: inline-block;
-    padding-top: 5px;
-    padding-left: 10px;
-}
-.icon a{
-    padding-left: 10px;
-}
-.icon :hover{
-    position: relative;
-    top: -10px;
-}
