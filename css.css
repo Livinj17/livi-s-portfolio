@@ -138,3 +138,20 @@ body{
     0%{left: 600px;}
     100%{left: 800px;}
 }
+.icon{
+    position: relative;
+    top: 555px;
+    left: 120px;
+    list-style: none;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.icon a{
+    padding-left: 10px;
+}
+.icon :hover{
+    position: relative;
+    top: -10px;
+}
+
