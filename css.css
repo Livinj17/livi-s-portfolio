@@ -135,8 +135,8 @@ body{
     
 }
 @keyframes top{
-    0%{left: 600px;}
-    100%{left: 800px;}
+    0%{left: 200px;}
+    100%{left: 600px;}
 }
 .icon{
     position: relative;
