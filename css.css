@@ -130,13 +130,13 @@ body{
 .pro{
     position: fixed;
     top: 50px;
-    left: 600px;
+    left: 790px;
     animation: top 1.5s ;
     
 }
 @keyframes top{
-    0%{left: 200px;}
-    100%{left: 600px;}
+    0%{left: 400px;}
+    100%{left: 790px;}
 }
 .icon{
     position: relative;
